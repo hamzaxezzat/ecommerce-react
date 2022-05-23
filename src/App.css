@@ -543,3 +543,24 @@ section {
 .card-img-top {
     height: 100%;
 }
+
+.cover {
+    object-fit: cover !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: #0d6efd !important;
+    border: none;
+}
+.navbar .nav-item {
+    transition: 0.2s ease-in;
+}
+.navbar .nav-item:hover {
+    background-color: #0d6efd;
+    border-radius: 50rem;
+    color: white !important;
+    padding: 0px 6px;
+}
+.nav-link:hover {
+    color: white !important;
+}

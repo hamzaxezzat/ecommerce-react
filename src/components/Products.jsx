@@ -49,31 +49,31 @@ function Products() {
             <>
                 <div className="buttons d-flex justify-content-center mb-5 pb-5">
                     <button
-                        className="btn btn-outline-dark me-2"
+                        className="btn btn-outline-dark me-2 rounded-pill"
                         onClick={() => setFilter(data)}
                     >
                         All
                     </button>
                     <button
-                        className="btn btn-outline-dark me-2"
+                        className="btn btn-outline-dark me-2 rounded-pill"
                         onClick={() => filterProduct("men's clothing")}
                     >
                         Men's Clothing
                     </button>
                     <button
-                        className="btn btn-outline-dark me-2"
+                        className="btn btn-outline-dark me-2 rounded-pill"
                         onClick={() => filterProduct("women's clothing")}
                     >
                         Women's Clothing
                     </button>
                     <button
-                        className="btn btn-outline-dark me-2"
+                        className="btn btn-outline-dark me-2 rounded-pill"
                         onClick={() => filterProduct("jewelery")}
                     >
                         Jewelery
                     </button>
                     <button
-                        className="btn btn-outline-dark me-2"
+                        className="btn btn-outline-dark me-2 rounded-pill"
                         onClick={() => filterProduct("electronics")}
                     >
                         Electronics
@@ -103,7 +103,7 @@ function Products() {
                                         </p>
                                         <NavLink
                                             to={`/products/${product.id}`}
-                                            className="btn btn-outline-dark"
+                                            className="btn btn-outline-dark rounded-pill"
                                         >
                                             Buy Now
                                         </NavLink>
@@ -125,7 +125,7 @@ function Products() {
                         <h1 className="display-6 fw-bolder text-center">
                             Latest Products
                         </h1>
-                        <hr />
+                        {/* <hr /> */}
                     </div>
                     <div className="row justify-content-center">
                         {loading ? <Loading /> : <ShowProducts />}
