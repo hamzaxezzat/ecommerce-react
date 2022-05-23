@@ -1,8 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 export default function Navbar() {
+    const state = useSelector((state) => state.handleCart);
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-white py-3 shadow-sm">
@@ -74,7 +76,7 @@ export default function Navbar() {
                                 >
                                     <i className="fa fa-shopping-cart me-1">
                                         {" "}
-                                        Cart (0)
+                                        Cart ({state.length})
                                     </i>
                                 </NavLink>
                             </button>
