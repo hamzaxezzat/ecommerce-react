@@ -2,32 +2,46 @@ import React from "react";
 
 function About() {
     return (
-        <div className="container">
-            <div className=" mt-5 row ">
-                <div className="col-3">
-                    <div className="image-about  object-center text-center">
-                        <img src="./assets/poster.jpg" alt="Aboutus" />
+        <section className="about-section">
+            <div className="container">
+                <div className="row">
+                    <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                        <div className="inner-column">
+                            <div className="sec-title">
+                                <span className="title">About Us</span>
+                                <h1>All you want</h1>
+                                <h2 className="display-8">in one place</h2>
+                            </div>
+                            <div className="text">
+                                That’s what gets us up every day. Working with
+                                you to make ground-breaking, industry-defining,
+                                heart-racing moves. The kind of work that speaks
+                                to possibility and progress, unlocking
+                                opportunity to drive positive impact for your
+                                brand—and for the world around us.
+                            </div>
+                            <ul className="list-style-one">
+                                <li>Men's Clothing</li>
+                                <li>Women's Clothing</li>
+                                <li>Electronics</li>
+                                <li>Jewelries</li>
+                            </ul>
+                            <div className="btn-box">
+                                <a href="/" className="theme-btn btn-style-one">
+                                    Shopping
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="col-6">
-                    <div className="text">
-                        <span className="text-gray-500 border-b-2 lead border-indigo-600 uppercase">
-                            About us
-                        </span>
-                        <h2 className="my-4 font-bold text-3xl display-6 fw-bolder ">
-                            About{" "}
-                            <span className="text-indigo-600">Our Company</span>
-                        </h2>
-                        <p className="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aliquid, commodi doloremque, fugiat illum
-                            magni minus nisi nulla numquam obcaecati placeat
-                            quia, repellat tempore voluptatum.
-                        </p>
+
+                    <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div className="inner-column wow fadeInLeft">
+                            <img src="./assets/poster.jpg" alt="s" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

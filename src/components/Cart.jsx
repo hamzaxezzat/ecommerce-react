@@ -65,8 +65,8 @@ function Cart() {
                             </div> */}
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="payment-info">
+                    <div className="col-md-4 rounded-4">
+                        <div className="payment-info p-5  rounded-0">
                             <div className="d-flex justify-content-between align-items-center">
                                 <span>Card details</span>
                                 <img

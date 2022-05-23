@@ -8,7 +8,7 @@ function Footer() {
             </div>
 
             <div>
-                <a href="#!" className="text-white me-4">
+                <a href="#!" className="text-white mx-4">
                     <i className="fa fa-facebook-f"></i>
                 </a>
                 <a href="#!" className="text-white me-4">

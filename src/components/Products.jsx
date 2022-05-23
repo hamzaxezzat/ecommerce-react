@@ -91,7 +91,8 @@ function Products() {
                                         src={product.image}
                                         className="card-img-top"
                                         alt={product.title}
-                                        height="250px"
+                                        height="100px"
+                                        // width="100%"
                                     />
                                     <div className="card-body">
                                         <h5 className="card-title mb-0">
