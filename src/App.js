@@ -5,6 +5,8 @@ import "./App.css";
 import Products from "./components/Products";
 import Product from "./components/Product";
 import { Routes, Route } from "react-router-dom";
+import Cart from "./components/Cart";
+import Login from "./components/Login";
 
 export const App = () => {
     return (
@@ -14,6 +16,8 @@ export const App = () => {
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/products" element={<Products />} />
                 <Route exact path="/products/:id" element={<Product />} />
+                <Route exact path="/Cart/" element={<Cart />} />
+                <Route exact path="/login/" element={<Login />} />
             </Routes>
         </>
     );
