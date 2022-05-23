@@ -15,7 +15,7 @@ function Cart() {
     console.log(cartTotal);
     return (
         <div>
-            <div className="container mt-5 p-3 rounded cart">
+            <div className="container vh-80  mt-5 p-3 rounded cart">
                 <div className="row no-gutters">
                     <div className="col-md-8">
                         <div className="product-details me-2">

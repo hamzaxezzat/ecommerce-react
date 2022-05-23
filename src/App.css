@@ -1,7 +1,17 @@
+/* Global  */
+.vh-90 {
+    height: 90vh !important;
+}
+.vh-80 {
+    height: 80vh !important;
+}
+.vh-20 {
+    height: 20vh !important;
+}
 /*  Cart */
 
 .payment-info {
-    background: blue;
+    background: #0a58ca;
     padding: 10px;
     border-radius: 6px;
     color: #fff;
@@ -105,7 +115,12 @@ label.radio input:checked + span {
 .spec {
     font-size: 11px;
 }
-
+/* Images */
+.fit-image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
 /* Login Form */
 
 .divider:after,
@@ -122,4 +137,9 @@ label.radio input:checked + span {
     .h-custom {
         height: 100%;
     }
+}
+
+/* Footer */
+
+.footer {
 }

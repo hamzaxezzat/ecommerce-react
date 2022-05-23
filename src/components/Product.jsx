@@ -54,6 +54,7 @@ function Product() {
                     <img
                         src={product.image}
                         alt={product.title}
+                        className="fit-image"
                         height="400px"
                         width="400px"
                     />
