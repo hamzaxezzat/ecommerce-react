@@ -108,17 +108,18 @@ label.radio input:checked + span {
 
 /* Login Form */
 
-.login-wrap {
-    margin-top: 150px;
-    background-color: #8f37aa;
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
 }
-
-.form-control-placeholder {
-    position: absolute;
-    top: 2px;
-    padding: 7px 0 0 15px;
-    -webkit-transition: all 400ms;
-    -o-transition: all 400ms;
-    transition: all 400ms;
-    opacity: 0.6;
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
 }

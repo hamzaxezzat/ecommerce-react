@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import { Routes, Route } from "react-router-dom";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
+import Footer from "./components/Footer";
 
 export const App = () => {
     return (
@@ -19,6 +20,7 @@ export const App = () => {
                 <Route exact path="/Cart/" element={<Cart />} />
                 <Route exact path="/login/" element={<Login />} />
             </Routes>
+            <Footer />
         </>
     );
 };
