@@ -57,13 +57,13 @@ export default function Navbar() {
                             <button className="btn">
                                 <NavLink
                                     to="/login"
-                                    className="btn btn-outline-dark"
+                                    className="btn btn-outline-dark rounded-pill"
                                 >
-                                    <i className="fa fa-sign-in me-1"> Login</i>
+                                    <i className="fa fa-sign-in mx-2"> Login</i>
                                 </NavLink>
                                 <NavLink
                                     to="/cart"
-                                    className="btn btn-outline-dark ms-2"
+                                    className="btn btn-outline-dark mx-2 rounded-pill"
                                 >
                                     <i className="fa fa-shopping-cart me-1">
                                         {" "}

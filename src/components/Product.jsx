@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Skeleton from "react-loading-skeleton";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
-import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
 import { NavLink } from "react-router-dom";
 
@@ -54,7 +54,6 @@ function Product() {
                     <img
                         src={product.image}
                         alt={product.title}
-                        className="fit-image"
                         height="400px"
                         width="400px"
                     />

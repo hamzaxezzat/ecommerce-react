@@ -8,6 +8,8 @@ import { Routes, Route } from "react-router-dom";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import About from "./components/About";
 
 export const App = () => {
     return (
@@ -19,6 +21,8 @@ export const App = () => {
                 <Route exact path="/products/:id" element={<Product />} />
                 <Route exact path="/Cart/" element={<Cart />} />
                 <Route exact path="/login/" element={<Login />} />
+                <Route exact path="/contact/" element={<Contact />} />
+                <Route exact path="/about/" element={<About />} />
             </Routes>
             <Footer />
         </>
